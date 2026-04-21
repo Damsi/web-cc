@@ -1,0 +1,15 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Navbar from "../components/layout/Navbar";
+import Hero from "../components/sections/Hero";
+import Footer from "../components/layout/Footer";
+import PageWrapper from "../components/layout/PageWrapper";
+---
+
+<Layout title="UKM Chip.Com - Home">
+	<Navbar client:load />
+	<PageWrapper client:load>
+		<Hero client:load />
+	</PageWrapper>
+	<Footer client:load />
+</Layout>

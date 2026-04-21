@@ -1,0 +1,17 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/layout/Navbar';
+import History from '../components/sections/History';
+import Footer from '../components/layout/Footer';
+import PageWrapper from '../components/layout/PageWrapper';
+---
+
+<Layout title="UKM Chip.Com - Sejarah">
+	<Navbar client:load />
+	<PageWrapper client:load>
+        <div class="pt-24 min-h-screen">
+		    <History client:load />
+        </div>
+	</PageWrapper>
+	<Footer client:load />
+</Layout>
