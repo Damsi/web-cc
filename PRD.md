@@ -35,6 +35,7 @@ Current system limitations that have been addressed:
 - **Dynamic Floating Dock Navbar**: Magnetic hover interaction and mobile slide-in drawer.
 - **Bento Grid Hero**: Engaging structure with interactive image highlights and active organization stats.
 - **Multi-page Architecture**: Built using Astro 6.1 routing combined with React 19 interactive Islands.
+- **Premium Innovation Timeline**: Redesigned history section with scroll-linked progress tracing and glassmorphism cards.
 
 ### 🤖 AI Features (JadeAI)
 - **Global AI Assistant**: A floating chat widget available on all pages.
@@ -69,6 +70,6 @@ Current system limitations that have been addressed:
 ## 7. Future Improvements (Next Phases)
 
 ### Post-Launch Priorities
-1. **Backend Contact Form Integration**: Connect `Contact.tsx` to an API (Formspree/Vercel Serverless) for actual email routing.
-2. **Astro Content Collections**: Migrate static texts (sejarah, visimisi) inside `src/content/` for Markdown-based CMS.
-3. **SEO Metadata API**: Implement dynamic `<head>` injection for distinct SEO per page.
+1. **Astro Content Collections**: Migrate static texts (sejarah, visimisi) inside `src/content/` for Markdown-based CMS.
+2. **SEO Metadata API**: Implement dynamic `<head>` injection for distinct SEO per page.
+3. **Interactive Project Showcase**: Add a dedicated section for active tech projects by members.

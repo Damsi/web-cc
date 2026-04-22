@@ -9,7 +9,7 @@ The AI system is implemented as a client-side functional React component (`AIAss
 ### Core Capabilities:
 1. **Contextual Navigation Routing**: When users ask questions (e.g., "apa itu chip.com?", "mau gabung"), the assistant provides textual answers natively and generates actionable navigational buttons that bypass traditional soft-routing limitations.
 2. **Interactive UI Helper**: Accessible via a floating action button on the bottom right of the screen. Utilizes `framer-motion` for spring-based fluid revealing interactions.
-3. **Keyword-Triggered Logic**: Currently relies on predefined keyword heuristics (simulated logic layer) to parse intent and deliver instant relevant responses regarding organizational history, contact mechanics, and core vision.
+3. **Keyword-Triggered Logic**: Currently relies on predefined keyword heuristics (simulated logic layer) to parse intent and deliver instant relevant responses regarding organizational history, membership induction, and core vision.
 
 ## Future Recommendations
 For a true LLM-backed experience in the future:

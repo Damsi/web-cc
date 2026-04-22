@@ -60,10 +60,10 @@ const Gallery = () => {
                   {img.category}
                 </span>
                 <h3 className="text-2xl font-bold text-white mb-2">{img.title}</h3>
-                <div className="flex items-center gap-2 text-white/60 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                {/* <div className="flex items-center gap-2 text-white/60 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                   <span>Lihat Detail</span>
                   <ArrowRight className="h-4 w-4" />
-                </div>
+                </div> */}
               </div>
             </motion.div>
           ))}

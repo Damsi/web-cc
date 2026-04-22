@@ -56,7 +56,7 @@ const Hero = () => {
           {/* Quick Stats / Trust Indicators */}
           <div className="mt-12 flex items-center gap-8 pt-8 border-t border-slate-200">
             <div>
-              <p className="text-3xl font-black text-slate-900">50+</p>
+              <p className="text-3xl font-black text-slate-900">10+</p>
               <p className="text-sm font-bold text-slate-500 uppercase tracking-wider">Anggota Aktif</p>
             </div>
             <div className="w-px h-12 bg-slate-200"></div>
@@ -64,8 +64,8 @@ const Hero = () => {
               <p className="text-3xl font-black text-slate-900">10+</p>
               <p className="text-sm font-bold text-slate-500 uppercase tracking-wider">Program Kerja</p>
             </div>
-            <div className="w-px h-12 bg-slate-200 hidden sm:block"></div>
-            <div className="hidden sm:block">
+            {/* <div className="w-px h-12 bg-slate-200 hidden sm:block"></div> */}
+            {/* <div className="hidden sm:block">
               <div className="flex -space-x-4 mb-1">
                 {[1, 2, 3, 4].map((i) => (
                   <div key={i} className="w-10 h-10 rounded-full border-2 border-white bg-slate-200 flex items-center justify-center overflow-hidden">
@@ -74,7 +74,7 @@ const Hero = () => {
                 ))}
               </div>
               <p className="text-sm font-bold text-slate-500">Solid & Beragam</p>
-            </div>
+            </div> */}
           </div>
         </motion.div>
         
@@ -99,7 +99,7 @@ const Hero = () => {
           </div>
 
           {/* Small Bento 1 */}
-          <div className="bg-slate-50 border border-slate-200 rounded-3xl p-6 flex flex-col justify-between aspect-square group hover:bg-white hover:shadow-xl transition-all">
+          {/* <div className="bg-slate-50 border border-slate-200 rounded-3xl p-6 flex flex-col justify-between aspect-square group hover:bg-white hover:shadow-xl transition-all">
             <div className="w-12 h-12 bg-blue-100 rounded-2xl flex items-center justify-center text-blue-600 group-hover:scale-110 transition-transform">
               <MonitorSmartphone className="h-6 w-6" />
             </div>
@@ -107,7 +107,7 @@ const Hero = () => {
               <h4 className="font-bold text-slate-900 mb-1">Web Dev</h4>
               <p className="text-xs text-slate-500">Eksplorasi pembuatan aplikasi modern.</p>
             </div>
-          </div>
+          </div> */}
 
           {/* Small Bento 2 */}
           <div className="bg-indigo-600 rounded-3xl p-6 flex flex-col justify-between aspect-square text-white relative overflow-hidden group shadow-lg shadow-indigo-600/20 hover:shadow-indigo-600/40 transition-all">

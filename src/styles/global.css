@@ -71,3 +71,12 @@
   0% { transform: translateX(-150%) skewX(-20deg); }
   100% { transform: translateX(250%) skewX(-20deg); }
 }
+
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 12s linear infinite;
+}

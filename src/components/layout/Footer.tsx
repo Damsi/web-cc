@@ -5,7 +5,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer id="contact" className="bg-slate-950 text-white relative overflow-hidden">
+    <footer className="bg-slate-950 text-white relative overflow-hidden">
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-px bg-gradient-to-r from-transparent via-blue-500/50 to-transparent" />
       
       <div className="max-w-7xl mx-auto px-6 py-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 relative z-10">
@@ -20,9 +20,6 @@ const Footer = () => {
           <div className="flex gap-4">
             <a href="https://www.instagram.com/chipcomstmik_id/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center hover:bg-blue-600 transition-colors">
               <Icons.Instagram className="h-5 w-5" />
-            </a>
-            <a href="/contact" className="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center hover:bg-blue-600 transition-colors">
-              <Icons.Mail className="h-5 w-5" />
             </a>
           </div>
         </div>
@@ -41,7 +38,7 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-bold mb-8 text-blue-500 uppercase tracking-widest">Kolaborasi</h3>
           <ul className="space-y-4">
-            <li><a href="/contact" className="text-slate-400 hover:text-white transition-colors flex items-center gap-2 group"><Icons.ChevronRight className="h-4 w-4 text-blue-500 opacity-0 group-hover:opacity-100 -translate-x-2 group-hover:translate-x-0 transition-all" /> Hubungi Kami</a></li>
+
             <li><a href="https://chat.whatsapp.com/FLdEDPVpLDs4c82XFgCCad" target="_blank" className="text-slate-400 hover:text-white transition-colors flex items-center gap-2 group"><Icons.ChevronRight className="h-4 w-4 text-blue-500 opacity-0 group-hover:opacity-100 -translate-x-2 group-hover:translate-x-0 transition-all" /> Gabung Member</a></li>
           </ul>
         </div>

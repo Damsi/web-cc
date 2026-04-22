@@ -60,7 +60,7 @@ const Structure = () => {
                             <div className="bg-white border-2 border-orange-500 rounded-xl shadow-lg w-56 text-center overflow-hidden z-20 transition-transform hover:scale-105">
                                 <div className="bg-orange-500 text-white py-1.5 font-bold tracking-widest text-xs uppercase">Sekretaris</div>
                                 <div className="py-3 px-2">
-                                    <h2 className="text-sm font-extrabold text-slate-800">Cita Anggraini</h2>
+                                    <h2 className="text-sm font-extrabold text-slate-800">Cita Anugrahni</h2>
                                 </div>
                             </div>
 

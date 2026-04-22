@@ -44,7 +44,6 @@ const Navbar = () => {
     { name: 'Visi & Misi', href: '/visimisi' },
     { name: 'Struktur', href: '/struktur' },
     { name: 'Galeri', href: '/gallery' },
-    { name: 'Kontak', href: '/contact' },
   ];
 
   return (
@@ -134,6 +133,13 @@ const Navbar = () => {
           >
             <Menu className="w-5 h-5" />
           </button>
+
+          {/* MOBILE CENTER LOGO TEXT */}
+          <div className="absolute left-1/2 -translate-x-1/2 lg:hidden pointer-events-none">
+            <span className="text-base font-black tracking-tighter text-slate-800">
+              Chip.Com
+            </span>
+          </div>
         </nav>
       </div>
 

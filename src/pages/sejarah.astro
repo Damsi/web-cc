@@ -10,7 +10,7 @@ import PageWrapper from '../components/layout/PageWrapper';
 	<Navbar client:load />
 	<PageWrapper client:load>
         <div class="pt-24 min-h-screen">
-		    <History client:load />
+		    <History client:only="react" />
         </div>
 	</PageWrapper>
 	<Footer client:load />
