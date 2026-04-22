@@ -91,7 +91,7 @@ const AIAssistant = () => {
             <div className="absolute -inset-2 bg-blue-600/20 rounded-full animate-ping -z-10" />
             <Sparkles className="h-6 w-6" />
             <span className="absolute right-full mr-4 top-1/2 -translate-y-1/2 px-4 py-2 bg-white text-slate-800 text-sm font-bold rounded-xl shadow-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none border border-slate-100">
-              Tanya JadeAI ✨
+              Tanya ChipComAI
             </span>
           </motion.button>
         )}
