@@ -15,7 +15,7 @@ const AIAssistant = () => {
     {
       id: '1',
       type: 'bot',
-      text: 'Halo! Saya JadeAI, asisten virtual UKM Chip.Com. Ada yang bisa saya bantu hari ini?',
+      text: 'Halo! Saya ChipComAI, asisten virtual UKM Chip.Com. Ada yang bisa saya bantu hari ini?',
       actions: [
         { label: 'Apa itu Chip.Com?', onClick: () => handleAction('Apa itu Chip.Com?') },
         { label: 'Cara Bergabung', onClick: () => handleAction('Cara Bergabung') },
@@ -113,7 +113,7 @@ const AIAssistant = () => {
                   <Bot className="h-5 w-5" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-sm">JadeAI Assistant</h3>
+                  <h3 className="font-bold text-sm">ChipComAI Assistant</h3>
                   <p className="text-xs text-blue-100 flex items-center gap-1">
                     <span className="w-2 h-2 rounded-full bg-green-400 inline-block" /> Online
                   </p>

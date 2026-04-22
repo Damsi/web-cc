@@ -20,7 +20,7 @@ const Structure = () => {
                 >
                     {/* CORE CONTAINER */}
                     <div className="relative flex flex-col items-center w-full z-20">
-                        
+
                         {/* CONTINUOUS MOBILE TRUNK LINE (Hidden on Desktop) */}
                         <div className="lg:hidden absolute top-10 bottom-20 left-1/2 w-[3px] bg-slate-200 -z-10 -translate-x-1/2"></div>
 
@@ -41,7 +41,7 @@ const Structure = () => {
                         <div className="bg-white border-2 border-sky-500 rounded-xl shadow-lg w-64 text-center overflow-hidden z-10 transition-transform hover:scale-105">
                             <div className="bg-sky-500 text-white py-2 font-bold tracking-widest text-sm uppercase">Wakil Ketua</div>
                             <div className="py-4 px-2">
-                                <h2 className="text-base font-extrabold text-slate-800">Khairil</h2>
+                                <h2 className="text-base font-extrabold text-slate-800">Muhammad Khairil Anwar</h2>
                             </div>
                         </div>
 
@@ -60,14 +60,14 @@ const Structure = () => {
                             <div className="bg-white border-2 border-orange-500 rounded-xl shadow-lg w-56 text-center overflow-hidden z-20 transition-transform hover:scale-105">
                                 <div className="bg-orange-500 text-white py-1.5 font-bold tracking-widest text-xs uppercase">Sekretaris</div>
                                 <div className="py-3 px-2">
-                                    <h2 className="text-sm font-extrabold text-slate-800">Cita Citata</h2>
+                                    <h2 className="text-sm font-extrabold text-slate-800">Cita Anggraini</h2>
                                 </div>
                             </div>
 
                             <div className="bg-white border-2 border-emerald-500 rounded-xl shadow-lg w-56 text-center overflow-hidden z-20 transition-transform hover:scale-105">
                                 <div className="bg-emerald-500 text-white py-1.5 font-bold tracking-widest text-xs uppercase">Bendahara</div>
                                 <div className="py-3 px-2">
-                                    <h2 className="text-sm font-extrabold text-slate-800">Febryan Putra</h2>
+                                    <h2 className="text-sm font-extrabold text-slate-800">Shiva Nor Alisa</h2>
                                 </div>
                             </div>
                         </div>
@@ -83,7 +83,7 @@ const Structure = () => {
                             <div className="hidden lg:block absolute top-0 left-[12.5%] right-[12.5%] h-[3px] bg-slate-200"></div>
 
                             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-6 pt-0 lg:pt-8 w-full max-w-5xl relative z-20">
-                                
+
                                 {/* HUMAS */}
                                 <div className="relative flex flex-col items-center group transition-transform hover:-translate-y-2">
                                     {/* Desktop vertical stalk */}
@@ -94,12 +94,11 @@ const Structure = () => {
                                         </div>
                                         <div className="p-5 bg-white">
                                             <p className="text-[10px] text-slate-400 font-bold uppercase text-center mb-1">Ketua Divisi</p>
-                                            <p className="text-base font-black text-slate-800 text-center border-b border-slate-100 pb-3 mb-4">Rama</p>
+                                            <p className="text-base font-black text-slate-800 text-center border-b border-slate-100 pb-3 mb-4">Muhammad Ramadhan</p>
                                             <p className="text-[10px] text-slate-400 font-bold uppercase mb-2">Anggota</p>
                                             <ul className="text-sm font-semibold text-slate-600 space-y-2 text-left">
-                                                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-blue-500 shrink-0"></span> Dini Lestari</li>
-                                                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-blue-500 shrink-0"></span> Eko Saputra</li>
-                                                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-blue-500 shrink-0"></span> Siti Nuraini</li>
+                                                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-blue-500 shrink-0"></span> Raiysa Tsaniya Labiba</li>
+                                                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-blue-500 shrink-0"></span> Ahmad Norrouhy</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -118,9 +117,9 @@ const Structure = () => {
                                             <p className="text-base font-black text-slate-800 text-center border-b border-slate-100 pb-3 mb-4">Damsi</p>
                                             <p className="text-[10px] text-slate-400 font-bold uppercase mb-2">Anggota</p>
                                             <ul className="text-sm font-semibold text-slate-600 space-y-2 text-left">
-                                                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-orange-500 shrink-0"></span> Aulia Rahma</li>
-                                                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-orange-500 shrink-0"></span> Fahri Ramadhan</li>
-                                                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-orange-500 shrink-0"></span> Tri Utami</li>
+                                                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-orange-500 shrink-0"></span> Siti Fatimah</li>
+                                                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-orange-500 shrink-0"></span> Haidir Akram</li>
+                                                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-orange-500 shrink-0"></span> Yuhdiannor Syabani</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -136,12 +135,11 @@ const Structure = () => {
                                         </div>
                                         <div className="p-5 bg-white">
                                             <p className="text-[10px] text-slate-400 font-bold uppercase text-center mb-1">Ketua Divisi</p>
-                                            <p className="text-base font-black text-slate-800 text-center border-b border-slate-100 pb-3 mb-4">Razaq</p>
+                                            <p className="text-base font-black text-slate-800 text-center border-b border-slate-100 pb-3 mb-4">Ahmad Nourdy Abdillah</p>
                                             <p className="text-[10px] text-slate-400 font-bold uppercase mb-2">Anggota</p>
                                             <ul className="text-sm font-semibold text-slate-600 space-y-2 text-left">
-                                                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-emerald-500 shrink-0"></span> Ilham Akbar</li>
-                                                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-emerald-500 shrink-0"></span> Khairul Umam</li>
-                                                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-emerald-500 shrink-0"></span> Mira Agustina</li>
+                                                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-emerald-500 shrink-0"></span> Muhammad Razaq Marsa</li>
+                                                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-emerald-500 shrink-0"></span> Mathias Pandu Ari Dwi Setiawan</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -157,12 +155,12 @@ const Structure = () => {
                                         </div>
                                         <div className="p-5 bg-white">
                                             <p className="text-[10px] text-slate-400 font-bold uppercase text-center mb-1">Ketua Divisi</p>
-                                            <p className="text-base font-black text-slate-800 text-center border-b border-slate-100 pb-3 mb-4">Sungai Kapuas</p>
+                                            <p className="text-base font-black text-slate-800 text-center border-b border-slate-100 pb-3 mb-4">Vina</p>
                                             <p className="text-[10px] text-slate-400 font-bold uppercase mb-2">Anggota</p>
                                             <ul className="text-sm font-semibold text-slate-600 space-y-2 text-left">
-                                                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-pink-500 shrink-0"></span> Bagus Herlambang</li>
-                                                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-pink-500 shrink-0"></span> Reza Aditya</li>
-                                                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-pink-500 shrink-0"></span> Shinta Dewi</li>
+                                                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-pink-500 shrink-0"></span> Ferdiansyah</li>
+                                                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-pink-500 shrink-0"></span> Hamdah</li>
+                                                <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-pink-500 shrink-0"></span> Nanda Alrezel Rifani</li>
                                             </ul>
                                         </div>
                                     </div>
