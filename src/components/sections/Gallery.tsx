@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Instagram, ArrowRight, ExternalLink } from 'lucide-react';
+import { Instagram, ExternalLink } from 'lucide-react';
 
 const Gallery = () => {
   const images = [
@@ -42,6 +42,7 @@ const Gallery = () => {
             <motion.div
               key={idx}
               className="group relative overflow-hidden rounded-[2rem] aspect-video bg-slate-100 shadow-2xl"
+              style={{ contentVisibility: 'auto' }}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: idx * 0.1 }}
@@ -53,6 +54,7 @@ const Gallery = () => {
                 width={600}
                 height={400}
                 loading="lazy"
+                decoding="async"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 group-hover:rotate-1" 
               />
               

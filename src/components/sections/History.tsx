@@ -130,7 +130,7 @@ const History = () => {
                           style={{ background: event.gradient }}
                         />
                         
-                        <div className="relative p-8 md:p-12 rounded-[2rem] bg-white border border-slate-100 shadow-xl overflow-hidden">
+                        <div className="relative p-8 md:p-12 rounded-[2rem] bg-white border border-slate-100 shadow-xl overflow-hidden" style={{ contentVisibility: 'auto' }}>
                           {/* Background Year Decal */}
                           <div className="absolute -top-10 -right-10 text-[10rem] font-black text-slate-100/60 leading-none select-none -z-10 group-hover:scale-110 transition-transform duration-700 pointer-events-none italic">
                             {event.year}

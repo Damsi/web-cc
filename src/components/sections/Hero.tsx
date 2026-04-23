@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
-import { ChevronRight, Users, User, ArrowUpRight, Sparkles, MonitorSmartphone } from 'lucide-react';
+import { ChevronRight, Users, User, ArrowUpRight, Sparkles } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -12,7 +12,7 @@ const Hero = () => {
         <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-indigo-100/50 rounded-full blur-[100px] translate-y-1/3 -translate-x-1/3" />
         <div className="absolute inset-0 max-w-[100vw] overflow-hidden" style={{ backgroundImage: 'radial-gradient(circle at 1px 1px, rgba(0,0,0,0.05) 1px, transparent 0)', backgroundSize: '40px 40px' }} />
       </div>
-      
+
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10 w-full">
         {/* Left Column: Typography & Primary CTAs */}
         <motion.div
@@ -21,7 +21,7 @@ const Hero = () => {
           transition={{ duration: 0.8 }}
           className="lg:col-span-7"
         >
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.2 }}
@@ -30,16 +30,16 @@ const Hero = () => {
             <Sparkles className="h-4 w-4 text-blue-600" />
             <span>Open Recruitment 2026 Segera Hadir!</span>
           </motion.div>
-          
-          <h1 className="text-6xl sm:text-7xl lg:text-8xl font-black leading-[1.05] mb-6 tracking-tighter text-slate-900">
+
+          <h1 className="text-6xl sm:text-7xl lg:text-8xl font-black leading-[1.05] mb-6 tracking-tighter text-slate-900 hero-title">
             Kembangkan <br />
             Potensi <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Digitalmu!</span>
           </h1>
-          
+
           <p className="text-xl md:text-2xl text-slate-600 mb-10 max-w-xl leading-relaxed font-medium">
             UKM Chip.Com adalah ekosistem kolaboratif untuk mengasah skill <span className="text-slate-900 font-bold">Teknologi Informasi</span> dan karakter kepemimpinan.
           </p>
-          
+
           <div className="flex flex-col sm:flex-row flex-wrap gap-4">
             <Button size="lg" className="rounded-full shadow-xl shadow-blue-600/20 bg-blue-600 hover:bg-blue-700 h-14 px-8 text-lg" asChild>
               <a href="https://chat.whatsapp.com/FLdEDPVpLDs4c82XFgCCad" target="_blank" rel="noopener noreferrer">
@@ -52,16 +52,16 @@ const Hero = () => {
               </a>
             </Button>
           </div>
-          
+
           {/* Quick Stats / Trust Indicators */}
           <div className="mt-12 flex items-center gap-8 pt-8 border-t border-slate-200">
             <div>
-              <p className="text-3xl font-black text-slate-900">10+</p>
+              <p className="text-3xl font-black text-slate-900">18</p>
               <p className="text-sm font-bold text-slate-500 uppercase tracking-wider">Anggota Aktif</p>
             </div>
             <div className="w-px h-12 bg-slate-200"></div>
             <div>
-              <p className="text-3xl font-black text-slate-900">10+</p>
+              <p className="text-3xl font-black text-slate-900">6</p>
               <p className="text-sm font-bold text-slate-500 uppercase tracking-wider">Program Kerja</p>
             </div>
             {/* <div className="w-px h-12 bg-slate-200 hidden sm:block"></div> */}
@@ -77,7 +77,7 @@ const Hero = () => {
             </div> */}
           </div>
         </motion.div>
-        
+
         {/* Right Column: Bento Grid Style Interactive Visuals */}
         <motion.div
           className="lg:col-span-5 grid grid-cols-2 gap-4"

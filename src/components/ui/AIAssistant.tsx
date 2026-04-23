@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { MessageSquare, X, Send, Bot, Sparkles, User, ChevronRight } from 'lucide-react';
+import { X, Send, Bot, Sparkles, User, ChevronRight } from 'lucide-react';
 
 type Message = {
   id: string;

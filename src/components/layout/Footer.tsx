@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6 py-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 relative z-10">
         <div className="lg:col-span-1">
           <div className="flex items-center gap-3 mb-8">
-            <img src="/images/logo.svg" alt="Chip.Com" width={48} height={48} className="h-12 w-auto object-contain shrink-0 max-w-[4rem]" />
+            <img src="/images/logo.svg" alt="Chip.Com" width={48} height={48} decoding="async" className="h-12 w-auto object-contain shrink-0 max-w-[4rem]" />
             <span className="text-3xl font-black tracking-tighter">Chip.Com</span>
           </div>
           <p className="text-slate-400 text-lg leading-relaxed max-w-sm mb-8">

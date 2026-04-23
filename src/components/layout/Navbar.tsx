@@ -21,8 +21,11 @@ const Navbar = () => {
     };
     document.addEventListener('astro:page-load', onPageLoad);
 
-    const handleScroll = () => setIsScrolled(window.scrollY > 20);
-    window.addEventListener('scroll', handleScroll);
+    const handleScroll = () => {
+      const scrolled = window.scrollY > 20;
+      if (isScrolled !== scrolled) setIsScrolled(scrolled);
+    };
+    window.addEventListener('scroll', handleScroll, { passive: true });
     return () => {
       window.removeEventListener('scroll', handleScroll);
       document.removeEventListener('astro:page-load', onPageLoad);
@@ -63,7 +66,7 @@ const Navbar = () => {
             href="/"
             className="flex items-center gap-2.5 pl-3 pr-2 py-1 shrink-0 hover:opacity-80 transition-opacity"
           >
-            <img src="/images/logo.svg" alt="Chip.Com" width={40} height={40} className="w-10 h-10 object-contain" />
+            <img src="/images/logo.svg" alt="Chip.Com" width={40} height={40} decoding="async" className="w-10 h-10 object-contain" />
             <span className="text-lg font-black tracking-tight text-slate-800 hidden sm:inline">
               Chip.Com
             </span>

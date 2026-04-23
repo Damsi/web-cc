@@ -17,6 +17,7 @@ const Structure = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     className="glass rounded-[2rem] md:rounded-[3rem] p-6 md:p-12 shadow-2xl relative z-10"
+                    style={{ contentVisibility: 'auto' }}
                 >
                     {/* CORE CONTAINER */}
                     <div className="relative flex flex-col items-center w-full z-20">
