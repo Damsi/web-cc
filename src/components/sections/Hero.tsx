@@ -87,11 +87,11 @@ const Hero = () => {
         >
           {/* Large Main Feature Card */}
           <div className="col-span-2 group relative overflow-hidden rounded-3xl aspect-[4/3] shadow-2xl">
-            <img src="/images/pelatihan.webp" alt="Kegiatan Chip.Com" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+            <img src="/images/pelatihan.webp" alt="Kegiatan Chip.Com" width={800} height={600} fetchPriority="high" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
             <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent opacity-80" />
             <div className="absolute bottom-0 left-0 p-6 w-full">
               <span className="inline-block px-3 py-1 bg-blue-600 text-white text-xs font-bold rounded-full mb-3 uppercase tracking-widest">Unggulan</span>
-              <h3 className="text-2xl font-bold text-white mb-2 leading-tight">Pelatihan Dasar IT & Leadership</h3>
+              <h2 className="text-2xl font-bold text-white mb-2 leading-tight">Pelatihan Dasar IT & Leadership</h2>
               <a href="/gallery" className="inline-flex items-center text-blue-300 font-semibold hover:text-white transition-colors group/cta">
                 Lihat Galeri <ArrowUpRight className="ml-1 h-4 w-4 group-hover/cta:-translate-y-0.5 group-hover/cta:translate-x-0.5 transition-transform" />
               </a>
@@ -116,7 +116,7 @@ const Hero = () => {
               <Users className="h-6 w-6" />
             </div>
             <div>
-              <h4 className="font-bold text-white mb-1">Keorganisasian</h4>
+              <h3 className="font-bold text-white mb-1">Keorganisasian</h3>
               <p className="text-xs text-indigo-100">Jadilah pemimpin masa depan.</p>
             </div>
           </div>

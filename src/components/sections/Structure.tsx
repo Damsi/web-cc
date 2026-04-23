@@ -26,9 +26,9 @@ const Structure = () => {
 
                         {/* --- KETUA --- */}
                         <div className="bg-white border-2 border-blue-600 rounded-xl shadow-lg w-64 text-center overflow-hidden z-10 transition-transform hover:scale-105">
-                            <div className="bg-blue-600 text-white py-2 font-bold tracking-widest text-sm uppercase">Ketua</div>
+                            <h3 className="bg-blue-600 text-white py-2 font-bold tracking-widest text-sm uppercase">Ketua</h3>
                             <div className="py-4 px-2">
-                                <h2 className="text-lg font-extrabold text-slate-800">Ridhan Maulidi</h2>
+                                <h4 className="text-lg font-extrabold text-slate-800">Ridhan Maulidi</h4>
                             </div>
                         </div>
 
@@ -39,9 +39,9 @@ const Structure = () => {
 
                         {/* --- WAKIL KETUA --- */}
                         <div className="bg-white border-2 border-sky-500 rounded-xl shadow-lg w-64 text-center overflow-hidden z-10 transition-transform hover:scale-105">
-                            <div className="bg-sky-500 text-white py-2 font-bold tracking-widest text-sm uppercase">Wakil Ketua</div>
+                            <h3 className="bg-sky-500 text-white py-2 font-bold tracking-widest text-sm uppercase">Wakil Ketua</h3>
                             <div className="py-4 px-2">
-                                <h2 className="text-base font-extrabold text-slate-800">Muhammad Khairil Anwar</h2>
+                                <h4 className="text-base font-extrabold text-slate-800">Muhammad Khairil Anwar</h4>
                             </div>
                         </div>
 
@@ -58,16 +58,16 @@ const Structure = () => {
                             <div className="hidden lg:block absolute top-0 bottom-0 left-1/2 w-[3px] bg-slate-200 -z-10 -translate-x-1/2"></div>
 
                             <div className="bg-white border-2 border-orange-500 rounded-xl shadow-lg w-56 text-center overflow-hidden z-20 transition-transform hover:scale-105">
-                                <div className="bg-orange-500 text-white py-1.5 font-bold tracking-widest text-xs uppercase">Sekretaris</div>
+                                <h3 className="bg-orange-500 text-white py-1.5 font-bold tracking-widest text-xs uppercase">Sekretaris</h3>
                                 <div className="py-3 px-2">
-                                    <h2 className="text-sm font-extrabold text-slate-800">Cita Anugrahni</h2>
+                                    <h4 className="text-sm font-extrabold text-slate-800">Cita Anugrahni</h4>
                                 </div>
                             </div>
 
                             <div className="bg-white border-2 border-emerald-500 rounded-xl shadow-lg w-56 text-center overflow-hidden z-20 transition-transform hover:scale-105">
-                                <div className="bg-emerald-500 text-white py-1.5 font-bold tracking-widest text-xs uppercase">Bendahara</div>
+                                <h3 className="bg-emerald-500 text-white py-1.5 font-bold tracking-widest text-xs uppercase">Bendahara</h3>
                                 <div className="py-3 px-2">
-                                    <h2 className="text-sm font-extrabold text-slate-800">Shiva Nor Alisa</h2>
+                                    <h4 className="text-sm font-extrabold text-slate-800">Shiva Nor Alisa</h4>
                                 </div>
                             </div>
                         </div>
@@ -90,7 +90,7 @@ const Structure = () => {
                                     <div className="hidden lg:block absolute top-[-32px] w-[3px] h-8 bg-slate-200 z-0"></div>
                                     <div className="bg-white rounded-xl shadow-lg border border-blue-200 overflow-hidden w-full max-w-sm z-10 border-t-4 border-t-blue-600">
                                         <div className="bg-blue-50/80 text-center py-2.5 border-b border-blue-100">
-                                            <h3 className="font-bold text-blue-700 text-xs tracking-widest uppercase">Divisi Humas</h3>
+                                            <h4 className="font-bold text-blue-700 text-xs tracking-widest uppercase">Divisi Humas</h4>
                                         </div>
                                         <div className="p-5 bg-white">
                                             <p className="text-[10px] text-slate-400 font-bold uppercase text-center mb-1">Ketua Divisi</p>
@@ -110,7 +110,7 @@ const Structure = () => {
                                     <div className="hidden lg:block absolute top-[-32px] w-[3px] h-8 bg-slate-200 z-0"></div>
                                     <div className="bg-white rounded-xl shadow-lg border border-orange-200 overflow-hidden w-full max-w-sm z-10 border-t-4 border-t-orange-500">
                                         <div className="bg-orange-50/80 text-center py-2.5 border-b border-orange-100">
-                                            <h3 className="font-bold text-orange-600 text-xs tracking-widest uppercase">Divisi Pelatihan</h3>
+                                            <h4 className="font-bold text-orange-600 text-xs tracking-widest uppercase">Divisi Pelatihan</h4>
                                         </div>
                                         <div className="p-5 bg-white">
                                             <p className="text-[10px] text-slate-400 font-bold uppercase text-center mb-1">Ketua Divisi</p>
@@ -131,7 +131,7 @@ const Structure = () => {
                                     <div className="hidden lg:block absolute top-[-32px] w-[3px] h-8 bg-slate-200 z-0"></div>
                                     <div className="bg-white rounded-xl shadow-lg border border-emerald-200 overflow-hidden w-full max-w-sm z-10 border-t-4 border-t-emerald-500">
                                         <div className="bg-emerald-50/80 text-center py-2.5 border-b border-emerald-100">
-                                            <h3 className="font-bold text-emerald-600 text-xs tracking-widest uppercase">Divisi Perlengkapan</h3>
+                                            <h4 className="font-bold text-emerald-600 text-xs tracking-widest uppercase">Divisi Perlengkapan</h4>
                                         </div>
                                         <div className="p-5 bg-white">
                                             <p className="text-[10px] text-slate-400 font-bold uppercase text-center mb-1">Ketua Divisi</p>
@@ -151,7 +151,7 @@ const Structure = () => {
                                     <div className="hidden lg:block absolute top-[-32px] w-[3px] h-8 bg-slate-200 z-0"></div>
                                     <div className="bg-white rounded-xl shadow-lg border border-pink-200 overflow-hidden w-full max-w-sm z-10 border-t-4 border-t-pink-500">
                                         <div className="bg-pink-50/80 text-center py-2.5 border-b border-pink-100">
-                                            <h3 className="font-bold text-pink-600 text-xs tracking-widest uppercase">Divisi Dok. & Kreatif</h3>
+                                            <h4 className="font-bold text-pink-600 text-xs tracking-widest uppercase">Divisi Dok. & Kreatif</h4>
                                         </div>
                                         <div className="p-5 bg-white">
                                             <p className="text-[10px] text-slate-400 font-bold uppercase text-center mb-1">Ketua Divisi</p>

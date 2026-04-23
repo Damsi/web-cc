@@ -7,18 +7,18 @@ const Footer = () => {
   return (
     <footer className="bg-slate-950 text-white relative overflow-hidden">
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-px bg-gradient-to-r from-transparent via-blue-500/50 to-transparent" />
-      
+
       <div className="max-w-7xl mx-auto px-6 py-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 relative z-10">
         <div className="lg:col-span-1">
           <div className="flex items-center gap-3 mb-8">
-            <img src="/images/logo.svg" alt="Chip.Com" className="h-12 w-auto object-contain shrink-0 max-w-[4rem]" />
+            <img src="/images/logo.svg" alt="Chip.Com" width={48} height={48} className="h-12 w-auto object-contain shrink-0 max-w-[4rem]" />
             <span className="text-3xl font-black tracking-tighter">Chip.Com</span>
           </div>
           <p className="text-slate-400 text-lg leading-relaxed max-w-sm mb-8">
             Membangun ekosistem teknologi yang inklusif dan progresif bagi mahasiswa STMIK Indonesia Banjarmasin.
           </p>
           <div className="flex gap-4">
-            <a href="https://www.instagram.com/chipcomstmik_id/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center hover:bg-blue-600 transition-colors">
+            <a href="https://www.instagram.com/chipcomstmik_id/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center hover:bg-blue-600 transition-colors" aria-label="Instagram UKM Chip.Com">
               <Icons.Instagram className="h-5 w-5" />
             </a>
           </div>
@@ -61,8 +61,8 @@ const Footer = () => {
       </div>
 
       <div className="bg-black/50 py-8 px-6 text-center border-t border-white/5">
-        <p className="text-slate-600 text-sm font-medium">
-          &copy; {currentYear} <span className="text-blue-500 font-bold">UKM Chip.Com</span>. All rights reserved. Made for the Future of IT.
+        <p className="text-slate-400 text-sm font-medium">
+          &copy; {currentYear} <span className="text-blue-500 font-bold">UKM Chip.Com</span>. All rights reserved. <span className="text-blue-500 font-bold">Damsi</span>
         </p>
       </div>
     </footer>

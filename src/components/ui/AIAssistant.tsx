@@ -87,6 +87,7 @@ const AIAssistant = () => {
             exit={{ scale: 0, opacity: 0 }}
             onClick={() => setIsOpen(true)}
             className="fixed bottom-6 right-6 z-50 p-4 rounded-full bg-blue-600 text-white shadow-xl shadow-blue-500/30 hover:bg-blue-700 transition-colors group"
+            aria-label="Buka Asisten AI"
           >
             <div className="absolute -inset-2 bg-blue-600/20 rounded-full animate-ping -z-10" />
             <Sparkles className="h-6 w-6" />
@@ -122,6 +123,7 @@ const AIAssistant = () => {
               <button
                 onClick={() => setIsOpen(false)}
                 className="p-2 hover:bg-white/20 rounded-full transition-colors"
+                aria-label="Tutup Asisten AI"
               >
                 <X className="h-5 w-5" />
               </button>
@@ -182,11 +184,13 @@ const AIAssistant = () => {
                   onChange={(e) => setInput(e.target.value)}
                   placeholder="Tanyakan sesuatu..."
                   className="flex-1 bg-slate-100 border-transparent focus:bg-white focus:border-blue-500 rounded-full px-4 py-2.5 text-sm outline-none transition-all w-full"
+                  aria-label="Ketik pesan..."
                 />
                 <button
                   type="submit"
                   disabled={!input.trim()}
                   className="p-2.5 bg-blue-600 text-white rounded-full hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors shrink-0"
+                  aria-label="Kirim pesan"
                 >
                   <Send className="h-4 w-4" />
                 </button>
